@@ -7,15 +7,15 @@ Contact form build with UIkit and Nodemailer
 ### Installation
 Install the dependencies and start the server.
 ```
-$ git clone https://github.com/rezkyfm/nodejs-contact-form.git
-$ cd nodejs-contact-form
+$ git clone https://github.com/binoyya/LaskaJ
+$ cd LaskaJ
 $ npm install && npm start
 ```
 
 ### Configuration
 Open config.js
 ```javascript
-/* 
+/*
 config.js
 */
 module.exports = {
