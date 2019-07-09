@@ -17,7 +17,8 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 //Server Start Notification
-app.listen(3000, () => console.log("Server Started..."));
+const port = process.env.PORT || 4000;
+app.listen(port, () => console.log("Server Started..."));
 
 //Set Static Folder Path
 app.use('/public', express.static(path.join(__dirname, 'public')));
