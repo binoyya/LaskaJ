@@ -4,7 +4,7 @@ module.exports = {
 
     //Email Account
     host: "smtp.gmail.com", //Change to your email smtp
-    port: "465", //Change to your email port
+    port: "587", //Change to your email port
     user: "laskajewellery@gmail.com", //Change to your email username
     pass: "yohan!23", //Change to your email password
 
