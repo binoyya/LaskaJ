@@ -39,7 +39,7 @@ app.post('/send', (req, res) => {
     //Email Template
     const output = `
         <p>You have a message</p>
-        <h3>Contact Details: ${req.body.name}</h3>
+        <h3>Contact Details of: ${req.body.name}</h3>
         <p>Name: ${req.body.name}</p>
         <p>Contact No: ${req.body.contact_no}</p>
         <p>Email: ${req.body.email}</p>

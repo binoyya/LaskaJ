@@ -11,5 +11,5 @@ module.exports = {
     //Email Message
     from: '"Contact Me" <laskajewellery@gmail.com>', // Sender address
     to: 'laskajewellery@gmail.com', // List of receivers
-    subject: 'Contact Us', // Subject
+    subject: 'Promo Customer Database', // Subject
 };
