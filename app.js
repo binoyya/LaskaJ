@@ -41,8 +41,8 @@ app.post('/send', (req, res) => {
         <p>You have a message</p>
         <h3>Contact Details of: ${req.body.name}</h3>
         <p>Name: ${req.body.name}</p>
-        <p>Contact No: ${req.body.contact_no}</p>
-        <p>Email: ${req.body.email}</p>
+        <p>Contact No: ${req.body.contact_no} </p>
+        <p>Email: ${req.body.email} </p>
         <p>Secret Code: ${req.body.secretcode}</p>
         <p>Appoinment Date: ${req.body.appoinment_date}</p>
         <p>Message:${req.body.message}</p>
