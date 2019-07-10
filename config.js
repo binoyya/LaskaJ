@@ -9,7 +9,7 @@ module.exports = {
     pass: "yohan!23", //Change to your email password
 
     //Email Message
-    from: '"Contact Me" <noreply@example.com>', // Sender address
-    to: 'youremail@example.com', // List of receivers
+    from: '"Contact Me" <laskajewellery@gmail.com>', // Sender address
+    to: 'laskajewellery@gmail.com', // List of receivers
     subject: 'Contact Us', // Subject
 };
