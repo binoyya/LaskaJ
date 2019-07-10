@@ -1,3 +1,4 @@
+
 //Import Package
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -25,6 +26,10 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 
 //Get Index Page Request
 app.get ('/', (req, res) => {
+    res.render(config.theme);
+});
+
+app.get ('/gift', (req, res) => {
     res.render(config.theme);
 });
 
