@@ -39,11 +39,15 @@ app.post('/send', (req, res) => {
     //Email Template
     const output = `
         <p>You have a message</p>
-        <h3>Contact Details</h3>
+        <h3>Contact Details: ${req.body.name}</h3>
         <p>Name: ${req.body.name}</p>
+        <p>Contact No: ${req.body.contact_no}</p>
         <p>Email: ${req.body.email}</p>
-        <h3>Message</h3>
-        <p>${req.body.message}</p>
+        <p>Secret Code: ${req.body.secretcode}</p>
+        <p>Appoinment Date: ${req.body.appoinment_date}</p>
+        <p>Message:${req.body.message}</p>
+
+
     `;
 
     //Alert if success sending email
