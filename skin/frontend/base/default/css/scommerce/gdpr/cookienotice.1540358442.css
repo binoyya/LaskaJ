@@ -1,0 +1,11 @@
+/* Alert block */
+.scommerce-gdpr-cookienotice{padding: 5px 0; font: 12px/18px Arial, Helvetica, sans-serif; text-align: center}
+.scommerce-gdpr-cookienotice .message{max-width: 90%; margin: 0 auto;}
+.scommerce-gdpr-cookienotice .message span.cookie-title{display: block; font-size: 16px; font-weight: bold; margin: 0.4em 0 0;}
+.scommerce-gdpr-cookienotice .message a{color: #f90; text-decoration: underline;}
+.scommerce-gdpr-cookienotice .message a:hover{text-decoration: none;}
+.scommerce-gdpr-cookienotice .message .close a{font-size: 16px; text-decoration: none; font-weight: bold;}
+.scommerce-gdpr-cookienotice .message .close a:hover{text-decoration: underline;}
+
+/* Delete account attention block */
+.scommerce-gdpr-attention-message {color: red;}

@@ -18,18 +18,23 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 //Server Start Notification
-const port = process.env.PORT || 4003;
+const port = process.env.PORT || 4004;
 app.listen(port, () => console.log("Server Started..."));
 
 //Set Static Folder Path
 app.use('/public', express.static(path.join(__dirname, 'public')));
-
+app.use('/images', express.static(path.join(__dirname, 'images')));
+app.use('/', express.static(path.join(__dirname, '/')));
 //Get Index Page Request
 app.get ('/', (req, res) => {
-    res.render(config.theme);
+res.sendFile('/index.html', { root: __dirname });
 });
 
 app.get ('/gift', (req, res) => {
+res.sendFile('/index.html', { root: __dirname });
+});
+
+app.get ('/offer', (req, res) => {
     res.render(config.theme);
 });
 
