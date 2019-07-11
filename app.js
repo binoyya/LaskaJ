@@ -54,7 +54,7 @@ app.post('/send', (req, res) => {
     const successAlert = `
         <div class="uk-alert-success" uk-alert>
                 <a class="uk-alert-close" uk-close></a>
-                <p>Message has been sent</p>
+                <p>You secret code has been sent successfully!!</p>
         </div>
     `;
 
@@ -62,7 +62,7 @@ app.post('/send', (req, res) => {
     const failAlert = `
         <div class="uk-alert-warning" uk-alert>
                 <a class="uk-alert-close" uk-close></a>
-                <p>Failed to send message. Please refresh this page</p>
+                <p>Failed to send the secret code. Please refresh this page or try again</p>
         </div>
     `;
 
