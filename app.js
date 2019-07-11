@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 //Server Start Notification
-const port = process.env.PORT || 4001;
+const port = process.env.PORT || 4002;
 app.listen(port, () => console.log("Server Started..."));
 
 //Set Static Folder Path
