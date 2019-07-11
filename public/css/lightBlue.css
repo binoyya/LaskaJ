@@ -4,7 +4,7 @@
 
 body, html {
     background-color: #f7f7fd;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Sansation', sans-serif;
 }
 
 .center {
@@ -32,16 +32,16 @@ body, html {
 .uk-navbar-nav > li > a {
     text-transform: none;
     color: #6e91ff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Sansation', sans-serif;
     font-weight: 500;
 }
 
-.uk-navbar-nav > li > a:hover, 
-.uk-navbar-nav > li >a:active, 
+.uk-navbar-nav > li > a:hover,
+.uk-navbar-nav > li >a:active,
 .uk-navbar-nav > li >a:focus {
     text-transform: none;
     color: #1c50fc;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Sansation', sans-serif;
 }
 
 /* Tittle */
@@ -50,15 +50,15 @@ body, html {
 }
 
 .tittle {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Sansation', sans-serif;
     margin: 0 auto;
     color: #38436b;
-    text-align: center;  
+    text-align: center;
 }
 
 .subtitle {
-    font-family: 'Raleway', sans-serif;
-    margin: 0 auto;  
+    font-family: 'Sansation', sans-serif;
+    margin: 0 auto;
     color: #c1c5dc;
     text-align: center;
 }
@@ -129,7 +129,7 @@ body, html {
 
 .contact-info h3{
     color: #ffffff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Sansation', sans-serif;
     text-align: center;
     margin-top: 50px;
 }
