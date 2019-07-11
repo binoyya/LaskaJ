@@ -31,7 +31,7 @@ body, html {
 /* Navigation */
 .uk-navbar-nav > li > a {
     text-transform: none;
-    color: #6e91ff;
+    color: #000000;
     font-family: 'Sansation', sans-serif;
     font-weight: 500;
 }
@@ -71,7 +71,7 @@ body, html {
 /* Button */
 .uk-button {
     text-align: center;
-    background-color: #6e91ff;
+    background-color: #000000;
     color: #ffffff;
     text-transform: none;
     transition: background-color .8s;
@@ -79,7 +79,7 @@ body, html {
 }
 
 .uk-button:hover {
-    background-color: #1c50fc;
+    background-color: #000000;
     -webkit-transition: background-color .8s;
     -moz-transition: background-color .8s;
     -o-transition: background-color .8s;
@@ -92,7 +92,7 @@ body, html {
 ================================== */
 
 .right-column {
-    background-color: #6e91ff;
+    background-color: #000000;
     padding: 20px;
     color: #ffffff;
 }
