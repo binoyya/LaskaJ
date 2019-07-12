@@ -56,6 +56,14 @@ body, html {
     text-align: center;
 }
 
+
+.tittleu {
+    font-family: 'Sansation', sans-serif;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: center;
+}
+
 .subtitle {
     font-family: 'Sansation', sans-serif;
     margin: 0 auto;
@@ -150,6 +158,21 @@ body, html {
 
 .uk-iconnav > li :hover {
  color: #ffffff;
+}
+
+
+
+img.sideimg{
+content: url("images/Laska1.jpg");
+padding-left: 5px;
+}
+
+
+img.sideimg1{
+content: url("images/Laska3.jpg");
+padding-left: 5px;
+max-width: auto;
+height: auto;
 }
 /* ==================================
                     Responsive
