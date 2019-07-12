@@ -163,13 +163,13 @@ body, html {
 
 
 img.sideimg{
-content: url("images/Laska1.jpg");
+content: url("/images/Laska1.jpg");
 padding-left: 5px;
 }
 
 
 img.sideimg1{
-content: url("images/Laska3.jpg");
+content: url("http://www.paradiseroad.lk/wp-content/uploads/2015/10/tintagel-dining-diningroom-1.jpg");
 padding-left: 5px;
 max-width: auto;
 height: auto;
