@@ -5,6 +5,8 @@ const exphbs = require('express-handlebars');
 const path = require('path');
 const nodemailer = require('nodemailer');
 
+
+
 const config = require('./config');
 
 //Set Package
@@ -23,10 +25,13 @@ app.use(bodyParser.json())
 const port = process.env.PORT || 4004;
 app.listen(port, () => console.log("Server Started..."));
 
+
+
 //Set Static Folder Path
 app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use('/images', express.static(path.join(__dirname, 'images')));
 app.use('/', express.static(path.join(__dirname, '/')));
+
 //Get Index Page Request
 app.get ('/', (req, res) => {
 res.sendFile('/index.html', { root: __dirname });
