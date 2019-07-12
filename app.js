@@ -31,7 +31,7 @@ res.sendFile('/index.html', { root: __dirname });
 });
 
 app.get ('/gift', (req, res) => {
-res.sendFile('/index.html', { root: __dirname });
+    res.render(config.theme);
 });
 
 app.get ('/offer', (req, res) => {
