@@ -1,4 +1,3 @@
-
 //Import Package
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -10,6 +9,9 @@ const config = require('./config');
 
 //Set Package
 const app = express();
+
+app.use(express.static('public'));
+
 
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
@@ -31,7 +33,15 @@ res.sendFile('/index.html', { root: __dirname });
 });
 
 app.get ('/gift', (req, res) => {
-    res.render(config.theme);
+    res.render(
+    config.theme);
+});
+
+app.get ('/gift', (req, res) => {
+    res.render({scripts: ['/public/jquery-3.3.1.min.js', '/public/jquery-3.3.1.js','/public/bootstrap-datetimepicker.min.js','/public/1.js',]
+  }
+
+  );
 });
 
 app.get ('/offer', (req, res) => {
