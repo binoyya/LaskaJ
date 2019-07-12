@@ -19,9 +19,33 @@
 
 
         <!-- CSS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+         <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+         <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+         <script type='text/javascript' src='/public/css/bootstrap-datetimepicker.min.js'></script>
+          <link rel='stylesheet' href='/public/css/bootstrap-datetimepicker.min.css'>
+
+
+        <link rel='stylesheet' href='/public/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='/public/css/bootstrap-responsive.css'>
+        <script src='/public/css/bootstrap.js' type="text/javascript"></script>
+        <script src='/public/css/bootstrap.min.js' type="text/javascript"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.31/css/uikit.min.css" />
         <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" />
         <link rel="stylesheet" href="/public/css/lightBlue.css">
+
+
+
+
+
+
+
+
+
+
+
+
 
     </head>
     <body>
@@ -95,10 +119,32 @@
                             </div>
 
                             <!--Book an Appoinment  -->
+
+
+
+
                             <div class="uk-margin">
                                     <label class="uk-form-label" for="form-stacked-text">Appoinment Date</label>
-                                    <input class="uk-input" name="appoinment_date" maxlength="10" type="text" placeholder="DD/MM/YYYY">
+                                    <input class="uk-input" name="datetimepicker"  data-uk-datepicker="{format:'DD.MM.YYYY'}" placeholder="DD/MM/YYYY" required>
                             </div>
+
+                            <!--Intended wedding date  -->
+                            <div class="uk-margin">
+                                    <label class="uk-form-label" for="form-stacked-text">Intended Wedding Date</label>
+                                    <input class="uk-input" name="wedding_date" maxlength="10" type="text" placeholder="DD/MM/YYYY" required>
+                            </div>
+
+
+                            <!--Hotel Details  -->
+                            <div class="uk-margin">
+                                    <label class="uk-form-label" for="form-stacked-text">Hotel Details</label>
+                                    <input class="uk-input" name="HotelDetails" type="text" required>
+                            </div>
+
+
+
+
+
 
 
                             <!--Book an Appoinment  -->
@@ -110,10 +156,7 @@
                             -->
 
                             <!-- Message -->
-                            <div class="uk-margin">
-                                    <label class="uk-form-label" for="form-stacked-text">Message</label>
-                                    <textarea class="uk-textarea" name="message" rows="5" required></textarea>
-                            </div>
+
 
                             <div class="uk-margin">
                             <h5 class="tittle">Terms and Conditions</h5>
@@ -232,6 +275,23 @@
         <!-- JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.31/js/uikit.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.31/js/uikit-icons.min.js"></script>
+
+
+        <script>
+        $('.datepicker').datepicker()
+        </script>
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+
+        <!-- Bootstrap Date-Picker Plugin -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+
+
+
 
     </body>
 </html>
