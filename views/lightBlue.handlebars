@@ -22,6 +22,10 @@
         <link href="//db.onlinewebfonts.com/c/00370d92f1b404768d34ac7dc664289e?family=Sansation" rel="stylesheet" type="text/css"/>
 
 
+        <link rel="stylesheet" type="text/css" media="screen"
+            href="http://tarruda.github.com/bootstrap-datetimepicker/assets/css/bootstrap-datetimepicker.min.css">
+
+
         <!-- CSS -->
          <scipt src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -129,19 +133,85 @@
 
                             <!--Book an Appoinment  -->
 
+                            <div class="uk-margin" id="datetimepicker1" >
+
+                              <label class="uk-form-label" for="form-stacked-text">Appoinment Date</label>
+                              <input type="date" class="uk-input .uk-text-danger" name="appoinmentDate" type="text" required>
+
+                            <script type="text/javascript"
+                             src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+                            </script>
+                            <script type="text/javascript"
+                             src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js">
+                            </script>
+                            <script type="text/javascript"
+                             src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.min.js">
+                            </script>
+                            <script type="text/javascript"
+                             src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.pt-BR.js">
+                            </script>
+
+                            <script type="text/javascript">
+                              $('#datetimepicker1').datetimepicker1({
+                                format: 'dd/MM/yyyy hh:mm:ss',
+                                language: 'pt-BR'
+                              });
+                            </script>
+
+                          </div>
 
 
 
+
+
+
+
+
+<!--
                             <div class="uk-margin">
                                     <label class="uk-form-label" for="form-stacked-text">Appoinment Date</label>
                                     <input class="uk-input" name="datetimepicker"  data-uk-datepicker="{format:'DD.MM.YYYY'}" placeholder="DD/MM/YYYY" required>
                             </div>
+-->
 
-                            <!--Intended wedding date  -->
+<!--
                             <div class="uk-margin">
                                     <label class="uk-form-label" for="form-stacked-text">Intended Wedding Date</label>
-                                    <input class="uk-input" name="wedding_date" maxlength="10" type="text" placeholder="DD/MM/YYYY" required>
-                            </div>
+                                    <input class="uk-input" name="wedding_date" maxlength="10" type="text" placeholder="DD/MM/YYYY" required var timepicker = UIkit.timepicker(element, { /* end */ });>
+-->
+
+
+<!--interded wedding Date-->
+                            <div class="uk-margin" id="datetimepicker2" >
+
+                              <label class="uk-form-label" for="form-stacked-text">Intended Wedding Date</label>
+                              <input type="date" class="uk-input .uk-text-danger" name="WedDate" type="text" required>
+
+                            <script type="text/javascript"
+                             src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+                            </script>
+                            <script type="text/javascript"
+                             src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js">
+                            </script>
+                            <script type="text/javascript"
+                             src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.min.js">
+                            </script>
+                            <script type="text/javascript"
+                             src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.pt-BR.js">
+                            </script>
+
+                            <script type="text/javascript">
+                              $('#datetimepicker2').datetimepicker2({
+                                format: 'dd/MM/yyyy hh:mm:ss',
+                                language: 'pt-BR'
+                              });
+                            </script>
+
+                          </div>
+
+
+
+
 
 
                             <!--Hotel Details  -->
