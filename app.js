@@ -1,4 +1,3 @@
-
 //Import Package
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -6,10 +5,15 @@ const exphbs = require('express-handlebars');
 const path = require('path');
 const nodemailer = require('nodemailer');
 
+
+
 const config = require('./config');
 
 //Set Package
 const app = express();
+
+app.use(express.static('public'));
+
 
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
@@ -18,12 +22,15 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 //Server Start Notification
-const port = process.env.PORT || 4003;
+const port = process.env.PORT || 4004;
 app.listen(port, () => console.log("Server Started..."));
+
+
 
 //Set Static Folder Path
 app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use('/images', express.static(path.join(__dirname, 'images')));
+app.use('/', express.static(path.join(__dirname, '/')));
 
 //Get Index Page Request
 app.get ('/', (req, res) => {
@@ -31,8 +38,21 @@ res.sendFile('/index.html', { root: __dirname });
 });
 
 app.get ('/gift', (req, res) => {
+    res.render(
+    config.theme);
+});
+
+app.get ('/gift', (req, res) => {
+    res.render({scripts: ['/public/jquery-3.3.1.min.js', '/public/jquery-3.3.1.js','/public/bootstrap-datetimepicker.min.js','/public/1.js',]
+  }
+
+  );
+});
+
+app.get ('/offer', (req, res) => {
     res.render(config.theme);
 });
+
 
 //Post Emaul Request
 app.post('/send', (req, res) => {
@@ -45,8 +65,9 @@ app.post('/send', (req, res) => {
         <p>Contact No: ${req.body.contact_no} </p>
         <p>Email: ${req.body.email} </p>
         <p>Secret Code: ${req.body.secretcode}</p>
-        <p>Appoinment Date: ${req.body.appoinment_date}</p>
-        <p>Message:${req.body.message}</p>
+        <p>Appoinment Date: ${req.body.appoinmentDate}</p>
+        <p>Wedding Date: ${req.body.WedDate}</p>
+        <p>Hotel Details:${req.body.hotelDetails}</p>
 
 
     `;

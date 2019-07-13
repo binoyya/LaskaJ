@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Add</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Moodboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2b.-Desktop---Wishlist" transform="translate(-109.000000, -695.000000)">
+            <g id="Wishlist" transform="translate(0.000000, 487.000000)">
+                <g id="Cards" transform="translate(70.000000, 187.000000)">
+                    <g id="Card">
+                        <g id="Add" transform="translate(40.000000, 22.000000)">
+                            <circle id="Checked" stroke="#FF9000" stroke-width="1.4000001" fill="#FF9000" cx="15" cy="15" r="15"></circle>
+                            <path d="M20.1178687,11.3099459 L14.0166846,17.3818427 L10.8541442,14.2344834 C10.434338,13.8166923 9.73466093,13.8166923 9.31485468,14.2344834 C8.89504844,14.6522744 8.89504844,15.3485929 9.31485468,15.7663839 L13.2610334,19.6936199 C13.4569429,19.8885891 13.7368138,20 14.0446717,20 C14.3525296,20 14.6044133,19.8885891 14.82831,19.6936199 L21.6851453,12.8696992 C22.1049516,12.4519082 22.1049516,11.7555897 21.6851453,11.3377987 C21.2653391,10.8921549 20.565662,10.8921549 20.1178687,11.3099459 Z" id="Tick" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

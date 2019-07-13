@@ -9,18 +9,58 @@
         <meta name="author" content="Author">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <script src = "/static/bootstrap-datetimepicker.min.js"/>
+        <script src = "bootstrap.js"/>
+        <script src = "bootstrap.min.js"/>
+
         <!-- Title -->
         <title>LASKA Promo</title>
         <link rel="icon" type="image/ico" href="~/images/favicon.ico"/>
+
+          <img class="sideimg" src="~/images/Laska1.jpg" />
 
         <!-- Font -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
         <link href="//db.onlinewebfonts.com/c/00370d92f1b404768d34ac7dc664289e?family=Sansation" rel="stylesheet" type="text/css"/>
 
 
+        <link rel="stylesheet" type="text/css" media="screen"
+            href="http://tarruda.github.com/bootstrap-datetimepicker/assets/css/bootstrap-datetimepicker.min.css">
+
+
         <!-- CSS -->
+         <scipt src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+         <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+         <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+         <script type='text/javascript' src='/public/css/bootstrap-datetimepicker.min.js'></script>
+          <link rel='stylesheet' href='/public/css/bootstrap-datetimepicker.min.css'>
+
+
+
+
+        <link rel='stylesheet' href='/public/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='/public/css/bootstrap-responsive.css'>
+        <script src='/public/static/bootstrap.js' type="text/javascript"></script>
+        <script src='/public/static/bootstrap.min.js' type="text/javascript"></script>
+                <script src='/public/static/1.js' type="text/javascript"></script>
+        <script src='/public/css/bootstrap.js' type="text/javascript"></script>
+        <script src='/public/css/bootstrap.min.js' type="text/javascript"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.31/css/uikit.min.css" />
+        <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" />
         <link rel="stylesheet" href="/public/css/lightBlue.css">
+
+
+
+
+
+
+
+
+
+
+
+
 
     </head>
     <body>
@@ -34,20 +74,33 @@
 
                     <!-- Navbar -->
                     <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-                        <div class="uk-navbar-left">
+                        <div class="uk-navbar-left"><br></br>
+
+                          <div class="tittle-container uk-align-left">
+                            <br>
+                              <h2 class="tittle">CONGRATULATIONS!</h2>
+
+                          </div>
+
+
+
                             <ul class="uk-navbar-nav">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Contact</a></li>
+                              <p class="uk-navbar-nav"></br>
+                                You're only a few steps away from becoming a handful of first customers at the Sri Lanka’s first ever designer wedding jeweler LASKA Jewellery Studio.
+                                Our Pre opening offer is only valid for confirmed orders made before 31st August 2019.
+                                Go ahead make an appointment to meet your very personal designer at our studio for free consultation session. <br><br><br>
+                              </p>
+                              </ul>
+
+
+
                             </ul>
                         </div>
                     </nav>
 
                     <!-- Contact Form Title -->
-                    <div class="tittle-container uk-align-center">
-                        <h2 class="tittle">Get in Touch</h2>
-                        <h4 class="subtitle">We'd love hear from you</h4>
-                    </div>
+
+
 
                     <!-- Form -->
                     <form class="contact-form" method="POST" action="send">
@@ -81,10 +134,100 @@
                             </div>
 
                             <!--Book an Appoinment  -->
+
+                            <div class="uk-margin" id="datetimepicker1" >
+
+                              <label class="uk-form-label" for="form-stacked-text">Appoinment Date</label>
+                              <input type="date" class="uk-input .uk-text-danger" name="appoinmentDate" type="text" required>
+
+                            <script type="text/javascript"
+                             src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+                            </script>
+                            <script type="text/javascript"
+                             src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js">
+                            </script>
+                            <script type="text/javascript"
+                             src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.min.js">
+                            </script>
+                            <script type="text/javascript"
+                             src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.pt-BR.js">
+                            </script>
+
+                            <script type="text/javascript">
+                              $('#datetimepicker1').datetimepicker1({
+                                format: 'dd/MM/yyyy hh:mm:ss',
+                                language: 'pt-BR'
+                              });
+                            </script>
+
+                          </div>
+
+
+
+
+
+
+
+
+<!--
                             <div class="uk-margin">
                                     <label class="uk-form-label" for="form-stacked-text">Appoinment Date</label>
-                                    <input class="uk-input" name="appoinment_date" maxlength="10" type="text" placeholder="DD/MM/YYYY">
+                                    <input class="uk-input" name="datetimepicker"  data-uk-datepicker="{format:'DD.MM.YYYY'}" placeholder="DD/MM/YYYY" required>
                             </div>
+-->
+
+<!--
+                            <div class="uk-margin">
+                                    <label class="uk-form-label" for="form-stacked-text">Intended Wedding Date</label>
+                                    <input class="uk-input" name="wedding_date" maxlength="10" type="text" placeholder="DD/MM/YYYY" required var timepicker = UIkit.timepicker(element, { /* end */ });>
+-->
+
+
+<!--interded wedding Date-->
+                            <div class="uk-margin" id="datetimepicker2" >
+
+                              <label class="uk-form-label" for="form-stacked-text">Intended Wedding Date</label>
+                              <input type="date" class="uk-input .uk-text-danger" name="WedDate" type="text">
+
+                            <script type="text/javascript"
+                             src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+                            </script>
+                            <script type="text/javascript"
+                             src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js">
+                            </script>
+                            <script type="text/javascript"
+                             src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.min.js">
+                            </script>
+                            <script type="text/javascript"
+                             src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.pt-BR.js">
+                            </script>
+
+                            <script type="text/javascript">
+                              $('#datetimepicker2').datetimepicker2({
+                                format: 'dd/MM/yyyy hh:mm:ss',
+                                language: 'pt-BR'
+                              });
+                            </script>
+
+                          </div>
+
+
+
+
+
+
+                            <!--Hotel Details  -->
+                            <div class="uk-margin">
+                                    <label class="uk-form-label" for="form-stacked-text">Hotel Details</label>
+                                    <input class="uk-input" name="hotelDetails" type="text">
+                            </div>
+
+
+
+
+
+
+
 
 
                             <!--Book an Appoinment  -->
@@ -96,18 +239,30 @@
                             -->
 
                             <!-- Message -->
+
+
                             <div class="uk-margin">
-                                    <label class="uk-form-label" for="form-stacked-text">Message</label>
-                                    <textarea class="uk-textarea" name="message" rows="5" required></textarea>
+                            <h5 class="tittle">Terms and Conditions</h5>
+                            <ul class="uk-list uk-list-bullet">
+                              <li>Valid only for orders make before until 31st August 2019</li>
+                              <li>Gift voucher is valid for 90 days from billing date</li>
+                              <li>  We will pay your Dinner bill but that includes only meals and nonalcoholic beverages
+                                except for the bottle of wine of your choice. LASKA Gems and Jewelers’ (PVT)
+                                Ltd will deduct your bill amount from our invoice at the time of final settlement</li>
+                              <li>Cannot be transferred to a third party other than LASKA customers</li>
+                            </ul>
+                            <p>
+
+                            </p>
                             </div>
 
                             <!-- Submit Button -->
                             <div class=".uk-margin-small">
                                 <input class="uk-button uk-align-right" type="submit" value="Submit">
-                                <button class="uk-button uk-button-default uk-margin-small-left" type="button" uk-toggle="target: #modal-example">Terms</button>
+
                             </div>
 
-                            <!-- This is the modal -->
+                            <!-- This is the modal
                             <div id="modal-example" uk-modal>
                                 <div class="uk-modal-dialog uk-modal-body">
                                 <h2 class="tittle">Terms & Conditions</h2>
@@ -138,7 +293,7 @@
                                 </p>
                                 </div>
                                 </div>
-
+                                -->
                         </fieldset>
                     </form>
                 </div>
@@ -156,13 +311,36 @@
                     </div>
                     -->
 
-                    <!-- Company Info -->
+                    <div class="uk-align-center">
+                    <img class="sideimg1" src="http://www.paradiseroad.lk/wp-content/uploads/2015/10/tintagel-dining-diningroom-1.jpg" />
+                    </div>
 
 
-                    <div class="contact-info">
-                    <h3>Contact Info</h3>
-                        <p class="uk-clearfix"><span class="uk-float-left" uk-icon="icon: location"></span>&nbsp; 15 Vishaka Road,<br>&emsp;&ensp; Colombo 0004,<br>&emsp;&ensp; Sri Lanka</p>
-                        <p><span uk-icon="icon: phone"></span>&nbsp; +94 112 580400</p>
+                    <div class="uk-align-center">
+
+                    <h4 class="tittleu">Gift Package</h4>
+                    <ul class="uk-list uk-list-bullet">
+                      <li>Romantic candle light Dinner for two at the courtyard by Tintagel Luxury Boutique Hotel Colombo with complementary bottle of Wine </li>
+                      <li>Design story book of your wedding Jewellery</li>
+                      <li>5 % off all Wedding Show customers with secret code</li>
+                    </ul>
+                    </div>
+
+
+
+
+                    <div class="uk-align-center">
+                    <img class="sideimg" src="~/images/Laska1.jpg" />
+                    </div>
+
+                    <div class="uk-align-center">
+                      <ul class="uk-iconnav">
+
+                              <li .center><a href="/" title="linkedin" uk-icon="icon: phone"></a></li>
+                              <li .center>+94 112 580400</li>
+                      </ul>
+
+
                     </div>
 
                     <!-- Social Icons -->
@@ -175,11 +353,25 @@
                     </div>
                 </div>
             </div>
+
         </div>
 
         <!-- JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.31/js/uikit.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.31/js/uikit-icons.min.js"></script>
+
+
+        <script>
+        $('.datepicker').datepicker()
+        </script>
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+
+
+
+
 
     </body>
 </html>
