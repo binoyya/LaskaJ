@@ -65,7 +65,7 @@ app.post('/send', (req, res) => {
         <p>Name: ${req.body.name}</p>
         <p>Contact No: ${req.body.contact_no} </p>
         <p>Email: ${req.body.email} </p>
-        <p>Secret Code: ${req.body.secretcode}</p>
+  
         <p>Appoinment Date: ${req.body.appoinmentDate}</p>
         <p>Wedding Date: ${req.body.WedDate}</p>
         <p>Hotel Details:${req.body.hotelDetails}</p>
