@@ -12,7 +12,7 @@ const config = require('./config');
 //Set Package
 const app = express();
 
-app.use(express.static('public'));
+app.use(express.static('public/1'));
 
 
 app.engine('handlebars', exphbs());
@@ -22,19 +22,20 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 //Server Start Notification
-const port = process.env.PORT || 4004;
+const port = process.env.PORT || 4005;
 app.listen(port, () => console.log("Server Started..."));
 
 
 
 //Set Static Folder Path
 app.use('/public', express.static(path.join(__dirname, 'public')));
+app.use('/public', express.static(path.join(__dirname, 'public/1')));
 app.use('/images', express.static(path.join(__dirname, 'images')));
 app.use('/', express.static(path.join(__dirname, '/')));
 
 //Get Index Page Request
 app.get ('/', (req, res) => {
-res.sendFile('/index.html', { root: __dirname });
+res.sendFile('public/1/index.html', { root: __dirname });
 });
 
 app.get ('/gift', (req, res) => {
