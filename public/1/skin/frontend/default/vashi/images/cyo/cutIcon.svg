@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="18px" viewBox="0 0 21 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Final-Seq" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Cut-Selection-Copy" transform="translate(-315.000000, -445.000000)" stroke="#4A4A4A">
+            <g id="Group-3" transform="translate(316.000000, 445.000000)">
+                <g id="Group-3-Copy-6" transform="translate(3.000000, 5.000000)" stroke-linejoin="round">
+                    <path d="M13,3.95652174 L0,3.95652174" id="Stroke-428"></path>
+                    <polygon id="Stroke-429" points="6.5 13.0002826 0 3.95680435 2.82608696 0.000282608695 10.173913 0.000282608695 13 3.95680435"></polygon>
+                    <polygon id="Stroke-430" points="3.95652174 3.95680435 6.5 0.000282608695 9.04347826 3.95680435 6.5 13.0002826"></polygon>
+                    <path d="M2.82608696,0 L3.95652174,3.95652174" id="Stroke-431"></path>
+                    <path d="M10.173913,0 L9.04347826,3.95652174" id="Stroke-432"></path>
+                </g>
+                <path d="M5,0 L6,2.4" id="Line-4-Copy-4"></path>
+                <path d="M0,0 L3,4.4" id="Line-4-Copy-4"></path>
+                <path d="M13,0 L14,2.4" id="Line-4-Copy-5" transform="translate(13.500000, 1.200000) scale(-1, 1) translate(-13.500000, -1.200000) "></path>
+                <path d="M16,0 L19,4.4" id="Line-4-Copy-5" transform="translate(17.500000, 2.200000) scale(-1, 1) translate(-17.500000, -2.200000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Listing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile---Listing" transform="translate(-46.000000, -89.000000)" fill-rule="nonzero" fill="#000000">
+            <g id="Top">
+                <g id="Search" transform="translate(28.000000, 70.000000)">
+                    <g id="Inside" transform="translate(18.000000, 17.000000)">
+                        <path d="M5.2,2 C8.0718807,2 10.4,4.3281193 10.4,7.2 C10.4,8.488 9.928,9.672 9.152,10.584 L9.368,10.8 L10,10.8 L14,14.8 L12.8,16 L8.8,12 L8.8,11.368 L8.584,11.152 C7.672,11.928 6.488,12.4 5.2,12.4 C2.3281193,12.4 3.55271368e-16,10.0718807 0,7.2 C-1.77635684e-15,4.3281193 2.3281193,2 5.2,2 L5.2,2 Z M5.2,3.6 C3.2,3.6 1.6,5.2 1.6,7.2 C1.6,9.2 3.2,10.8 5.2,10.8 C7.2,10.8 8.8,9.2 8.8,7.2 C8.8,5.2 7.2,3.6 5.2,3.6 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+    </g>
+    <g>
+        <g id="svg_1" fill-rule="evenodd" fill="none">
+            <path id="svg_2" stroke-linecap="square" opacity="0.273" stroke="#F6F6F6" d="m48,0l0,50"/>
+            <g id="svg_3" stroke-linejoin="round" stroke-linecap="round" stroke="#FFF">
+                <path id="svg_4" d="m30,28.036c0,0.532 -0.416,0.964 -0.929,0.964l-11.141,0c-0.514,0 -0.93,-0.432 -0.93,-0.964l0,-7.072c0,-0.533 0.416,-0.964 0.929,-0.964l11.141,0c0.513,0 0.929,0.431 0.929,0.964l0,7.072l0.001,0z"/>
+                <path id="svg_5" d="m29,20l-6,5l-6,-5"/>
+            </g>
+        </g>
+    </g>
+</svg>

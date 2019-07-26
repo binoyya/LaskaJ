@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Listing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---Listing" transform="translate(-793.000000, -2247.000000)" fill="#D8D8D8">
+            <path d="M793,2264.5 C793,2254.83502 800.835017,2247 810.5,2247 C820.164983,2247 828,2254.83502 828,2264.5 C828,2274.16498 820.164983,2282 810.5,2282 L810.5,2279 C818.508129,2279 825,2272.50813 825,2264.5 C825,2256.49187 818.508129,2250 810.5,2250 C802.491871,2250 796,2256.49187 796,2264.5 L793,2264.5 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

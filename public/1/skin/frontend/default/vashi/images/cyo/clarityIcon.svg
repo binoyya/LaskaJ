@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="14px" viewBox="0 0 15 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Final-Seq" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Clarity-Selection-Copy" transform="translate(-44.000000, -450.000000)" stroke="#4A4A4A">
+            <g id="Group-3" transform="translate(45.000000, 451.000000)">
+                <polygon id="Stroke-429" stroke-linecap="round" stroke-linejoin="round" points="6.5 13.0002826 0 3.95680435 2.82608696 0.000282608697 10.173913 0.000282608697 13 3.95680435"></polygon>
+                <path d="M1.5,1.5 L11.5622577,1.5" id="Line-4" stroke-linecap="round"></path>
+                <path d="M2.8999939,7.5 L10.1600037,7.5" id="Line-4" stroke-linecap="round"></path>
+                <path d="M4.29998779,9.5 L8.76000977,9.5" id="Line-4" stroke-linecap="round"></path>
+                <path d="M1.70001221,5.5 L11.2600098,5.5" id="Line-4" stroke-linecap="square"></path>
+                <path d="M0.5,3.5 L12.5622577,3.5" id="Line-4" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

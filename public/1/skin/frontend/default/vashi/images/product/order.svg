@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="23px" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="2--Visit-Us---V2---Scrolled-Down-Copy-246" transform="translate(-175.000000, -350.000000)">
+            <g id="Group-3" transform="translate(176.000000, 351.000000)">
+                <g id="Group-2" transform="translate(7.000000, 0.000000)" stroke="#000000" stroke-linecap="round">
+                    <polygon id="Stroke-429" points="5 10.0002174 0 3.04369565 2.17391304 0.000217391304 7.82608696 0.000217391304 10 3.04369565"></polygon>
+                    <polygon id="Stroke-430" points="3.04347826 3.04369565 5 0.000217391304 6.95652174 3.04369565 5 10.0002174"></polygon>
+                    <path d="M2.17391304,0 L3.04347826,3.04347826" id="Stroke-431"></path>
+                    <path d="M7.82608696,0 L6.95652174,3.04347826" id="Stroke-432"></path>
+                </g>
+                <polygon id="Stroke-1211" stroke="#4A4A4A" points="0 20.042 4 20.042 4 12 0 12"></polygon>
+                <path d="M4,18.5 C14.5,22 11,22 23,16 C21.937,14.937 21.098,14.687 20,15 L15.566,16.471" id="Stroke-1212" stroke="#4A4A4A" stroke-linecap="round"></path>
+                <path d="M4,13 L7,13 C9.353,13 11,14.5 11.5,15 L14.5,15 C16.094,15 16.094,17 14.5,17 L9,17" id="Stroke-1213" stroke="#4A4A4A" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
